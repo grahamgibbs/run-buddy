@@ -13,20 +13,23 @@ body {
     header {
       padding: 20px 35px;
       background-color: #39a6b2;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
     }
     header h1 {
         font-weight: bold;
         font-size: 36px;
         color: #fce138;
         margin: 0;
-        display: inline;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       }
       header a {
         text-decoration: none;
         color: #fce138;
       }
     header nav {
-        float: right;
+        
         padding: 10px 15px;
     }
     header nav ul li {
@@ -36,6 +39,7 @@ body {
         margin: 0 30px;
         font-weight: lighter;
         font-size: 22px;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
     footer {
         background: #fce138;
@@ -67,6 +71,7 @@ body {
         background-position: center;
         position: relative;
         align-items: flex-start;
+        rgba(252, 225, 56, 0.8);
     }
     
  
@@ -79,6 +84,8 @@ body {
         position: absolute;
         bottom: 120px;
         right: 140px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 15px;
       }
       .hero-form h3 {
         font-size: 24px;
@@ -97,6 +104,7 @@ body {
         color: #024e76;
         width: 100%;
         margin-bottom: 15px;
+        border-radius: 10px;
       }
       .hero-form label {
         margin: 0 5px;
@@ -107,9 +115,11 @@ body {
         border: none;
         padding: 10px 20px;
         font-size: 16px;
+        border-radius: 10px;
       }
       .hero-cta {
         line-height: 1.2;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       }
       /* Hero Styles End */
 
